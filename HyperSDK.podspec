@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.dependency 'Salvator', '1.0.2'
   
   s.ios.vendored_frameworks = "HyperSDK.xcframework"
-  s.prepare_command = "ruby DA.rb"
+  s.prepare_command = "pwd >> run_path.txt"
 end
